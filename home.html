@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <!-- Basic meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>css Assistant</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Sidebar */
+        .sidenav {
+            width: 250px;
+            height: 100vh;
+            overflow-y: auto;
+            background-color: #f4f4f4;
+            padding: 10px;
+            position: fixed;
+            top: 100px; /* Header-ийн өндөртэй уялдуулсан */
+            left: 0;
+            border-right: 2px solid #ddd;
+        }
+
+        .sidenav h2 {
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .sidenav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidenav li {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .sidenav a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+            font-size: 16px;
+        }
+
+        .sidenav a:hover {
+            background-color: #ddd;
+        }
+
+        /* Main content area */
+        .content {
+            margin-left: 270px; /* Сайдбарын өргөнөөс хамаарч зай авах */
+            padding: 20px;
+        }
+        .sidebar {
+    margin-top: 20px; /* Дээрээс бага зэрэг доошлуулах */
+    padding-top: 10px; /* Доторлогоо нэмэх */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                        <nav class="navigation navbar navbar-expand-md">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarsExample04">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item"><a class="nav-link" href="html.html">HTML</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="css.html">CSS</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="Ai.html">AI</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+

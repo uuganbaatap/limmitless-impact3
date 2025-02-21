@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>css Assistant</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Sidebar */
+        .sidenav {
+            width: 250px;
+            height: 100vh;
+            overflow-y: auto;
+            background-color: #f4f4f4;
+            padding: 10px;
+            position: fixed;
+            top: 100px; /* Header-ийн өндөртэй уялдуулсан */
+            left: 0;
+            border-right: 2px solid #ddd;
+        }
+
+        .sidenav h2 {
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .sidenav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidenav li {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .sidenav a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+            font-size: 16px;
+        }
+
+        .sidenav a:hover {
+            background-color: #ddd;
+        }
+
+        /* Main content area */
+        .content {
+            margin-left: 270px; /* Сайдбарын өргөнөөс хамаарч зай авах */
+            padding: 20px;
+        }
+        .sidebar {
+    margin-top: 20px; /* Дээрээс бага зэрэг доошлуулах */
+    padding-top: 10px; /* Доторлогоо нэмэх */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                        <nav class="navigation navbar navbar-expand-md">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarsExample04">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item"><a class="nav-link" href="html.html">HTML</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="css.html">CSS</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="Ai.html">AI</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- Sidebar -->
+<div class="sidenav">
+    <h2>css Tutorial</h2>
+    <ul>
+        <li><a href="#">CSS Introduction</a></li>
+        <li><a href="#">CSS Editors</a></li>
+        <li><a href="#">CSS Basic</a></li>
+        <li><a href="#">CSS Elements</a></li>
+        <li><a href="#">CSS Attributes</a></li>
+        <li><a href="#">CSS Headings</a></li>
+        <li><a href="#">CSS Paragraphs</a></li>
+        <li><a href="#">CSS Styles</a></li>
+        <li><a href="#">CSS Formatting</a></li>
+        <li><a href="#">CSS Colors</a></li>
+        <li><a href="#">CSS Links</a></li>
+        <li><a href="#">CSS Images</a></li>
+        <li><a href="#">CSS Tables</a></li>
+        <li><a href="#">CSS Lists</a></li>
+        <li><a href="#">CSS Forms</a></li>
+        <li><a href="#">CSS Media</a></li>
+        <li><a href="#">CSS APIs</a></li>
+    </ul>
+</div>
+
+<!-- Main content -->
+<div class="content">
+    <h1>What is CSS?</h1>
+    <p>CSS (Cascading Style Sheets) is a stylesheet language used to control the appearance and layout of HTML elements.<br> It allows developers to separate content (HTML) from design, making web pages more visually appealing and easier to maintain.</p>
+    <h1>Key Features of CSS:</h1>
+    <p>Controls the styling of HTML elements<br>
+        Supports responsive design for different screen sizes<br>
+        Enables animations and visual effects<br>
+        Works with HTML and JavaScript to enhance interactivity</p>
+    <h1>Basic CSS Properties:</h1>
+    <p>1.Color and Background:<br>
+        color – Changes text color<br>
+        background-color – Sets the background color<br>
+        2.Typography:<br>
+        font-size – Defines text size<br>
+        font-family – Specifies the font type<br>
+        3.Layout and Spacing:<br>
+        margin – Adds space around an element<br>
+        padding – Adds space inside an element<br>
+        display – Defines how elements are shown (block, inline, etc.)<br>
+        4.Positioning and Flexbox:<br>
+        position – Positions elements (static, relative, absolute, fixed)<br>
+        flexbox – Aligns and distributes space efficiently</p>
+        <h1>How Does CSS Work?</h1>
+        <p>CSS can be applied in three ways:</p>
+    <div class="center-container">
+        <a href="#"><button class="green-button">css</button></a>
+    </div>
+</div>
+
+</body>
+</html>

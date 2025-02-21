@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>html Assistant</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Sidebar */
+        .sidenav {
+            width: 250px;
+            height: 100vh;
+            overflow-y: auto;
+            background-color: #f4f4f4;
+            padding: 10px;
+            position: fixed;
+            top: 100px; /* Header-ийн өндөртэй уялдуулсан */
+            left: 0;
+            border-right: 2px solid #ddd;
+        }
+
+        .sidenav h2 {
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .sidenav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidenav li {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .sidenav a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+            font-size: 16px;
+        }
+
+        .sidenav a:hover {
+            background-color: #ddd;
+        }
+
+        /* Main content area */
+        .content {
+            margin-left: 270px; /* Сайдбарын өргөнөөс хамаарч зай авах */
+            padding: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                        <nav class="navigation navbar navbar-expand-md">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarsExample04">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item"><a class="nav-link" href="html.html">HTML</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="css.html">CSS</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="Ai.html">AI</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- Sidebar -->
+<div class="sidenav">
+    <h2>HTML Tutorial</h2>
+    <ul>
+        <li><a href="#">HTML Introduction</a></li>
+        <li><a href="#">HTML Editors</a></li>
+        <li><a href="#">HTML Basic</a></li>
+        <li><a href="#">HTML Elements</a></li>
+        <li><a href="#">HTML Attributes</a></li>
+        <li><a href="#">HTML Headings</a></li>
+        <li><a href="#">HTML Paragraphs</a></li>
+        <li><a href="#">HTML Styles</a></li>
+        <li><a href="#">HTML Formatting</a></li>
+        <li><a href="#">HTML Colors</a></li>
+        <li><a href="#">HTML Links</a></li>
+        <li><a href="#">HTML Images</a></li>
+        <li><a href="#">HTML Tables</a></li>
+        <li><a href="#">HTML Lists</a></li>
+        <li><a href="#">HTML Forms</a></li>
+        <li><a href="#">HTML Media</a></li>
+        <li><a href="#">HTML APIs</a></li>
+    </ul>
+</div>
+
+<!-- Main content -->
+<div class="content">
+    <h1>What is HTML?</h1>
+    <p>HTML (HyperText Markup Language) is the standard markup language for creating web pages.<br> It structures web content by organizing text, images, videos, links, and other elements.</p>
+    <h1>Key Features of HTML:</h1>
+    <p>Defines the structure of a web page<br>
+        Organizes content such as text, images, and videos<br>
+        Creates links and navigation<br>
+        Works with CSS and JavaScript to build interactive websites</p>
+    <h1>Basic HTML Elements:</h1>
+    <p>html – The root element of an HTML page<br>
+        head – Contains metadata and styles<br>
+        body – Holds the visible content of the webpage<br>
+        h1 - h6 – Heading elements<br>
+        p – Paragraph element<br>
+        a – Anchor tag for links<br>
+        img – Adds images<br>
+        ul, ol, li – Creates lists</p>
+    <h1>How Does HTML Work?</h1>
+    <p>A web browser reads HTML code and displays the corresponding elements on the screen.<br> Combined with CSS (Cascading Style Sheets) and JavaScript,<br> HTML helps build visually appealing and dynamic websites.</p>
+    <div class="center-container">
+        <a href="code/html.html"><button class="green-button">html</button></a>
+    </div>
+</div>
+
+</body>
+</html>

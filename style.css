@@ -1,0 +1,48 @@
+.green-button {
+    width: 70vw;
+    height: 100px;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.green-button:hover {
+    background-color: #218838;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    
+
+}
+/* Header-ийн өнгө */
+.header {
+    background-color: #0891F8; /* Хар хөх */
+    padding: 15px 0;
+}
+
+/* Navigation bar-ийн өнгө */
+.navigation {
+    background-color: #50a9ed; /* Меню хэсгийн араас ялгарах өнгө */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Navigation доторх линкүүд */
+.navigation .navbar-nav .nav-item .nav-link {
+    color: white !important; /* Цагаан өнгө */
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+/* Hover effect */
+.navigation .navbar-nav .nav-item .nav-link:hover {
+    background-color: #0891F8; /* Hover өнгө */
+    border-radius: 5px;
+}
